@@ -1,0 +1,22 @@
+//仅首页面显示背景图
+.index + #navBar + .bg_page{
+  display: block;
+}
+
+// 不同页面，导航条的背景颜色不一样
+#aboutUs + #navBar,
+#downLoad + #navBar,
+#xiaoyou + #navBar,
+#joinUs + #navBar{
+   background-color: #fff;
+  .nav_bar_wrapper{
+   background-color: #fff;
+  }
+}
+.index + #navBar {
+  .nav_bar_wrapper,
+  .mac_nav_bar_wrapper{
+    background-color: none;
+   }
+}
+
